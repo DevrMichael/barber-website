@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 nav {
@@ -11,7 +11,7 @@ nav {
   font-size: 0.8em;
   background-color: #222222;
 }
-nav>a {
+nav > a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -19,20 +19,20 @@ nav>a {
   text-transform: uppercase;
   height: 100%;
 }
-nav>a:hover {
+nav > a:hover {
   display: flex;
- background-color: #818a91;
- height: 100%;
- align-items: center;
- padding: 0 10px 0 10px;
- transition: ease-in-out 0.1s;
+  background-color: #818a91;
+  height: 100%;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  transition: ease-in-out 0.1s;
 }
 
 .hero-container {
   width: 100%;
   background: url(./assets/barber-hero.jpg);
   background-size: cover;
-background-position: 50%;
+  background-position: 50%;
   background-repeat: no-repeat;
   animation-name: zoom-in;
   animation-duration: 5s;
@@ -75,19 +75,19 @@ background-position: 50%;
   }
 }
 
-.hero>h1 {
+.hero > h1 {
   font-size: 3.5em;
   color: white;
   text-transform: uppercase;
   margin: 0;
 }
-.hero>h2 {
-font-size: 2em;
-text-transform: uppercase;
-color: #d19f68;
-font-weight: 500;
+.hero > h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #d19f68;
+  font-weight: 500;
 }
-.hero>button {
+.hero > button {
   background-color: #d19f68;
   text-transform: uppercase;
   font-weight: bold;
@@ -99,7 +99,7 @@ font-weight: 500;
   transform: translateY(5%);
   transition: transform 0.5s, opacity 0.5s;
 }
-.hero>button:hover {
+.hero > button:hover {
   transition: ease-in 0.2s;
   background: none;
   outline: 3px solid #d19f68;
@@ -110,12 +110,11 @@ font-weight: 500;
 }
 .features {
   display: flex;
-width: 100%;
-margin: auto;
-gap: 10px;
-background-color: #000000a1;
+  width: 100%;
+  margin: auto;
+  background-color: #000000a1;
 }
-.features>div {
+.features > div {
   text-transform: uppercase;
   display: flex;
   text-align: center;
@@ -125,4 +124,20 @@ background-color: #000000a1;
   justify-content: center;
   align-items: center;
   margin: auto;
+  cursor: pointer;
+}
+.features > div:nth-child(1) {
+  background: url(./assets/features-one.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.features > div:nth-child(2) {
+  background: url(./assets/features-two.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.features > div:nth-child(3) {
+  background: url(./assets/features-three.jpg);
+  background-size: cover;
+  background-position: center;
 }
