@@ -13,10 +13,12 @@ function App() {
         </nav>
       </header>
       <div className="hero-container">
-        <div className="hero hero-container-background">
-          <h1>Våre Frisører Hjelper Deg</h1>
-          <h2>Finn Din Frisør Hos Oss I Dag. Bestill Time Nå!</h2>
-          <button>Bestill Time</button>
+        <div className="hero-container-background">
+          <div className="hero">
+            <h1>Våre Frisører Hjelper Deg</h1>
+            <h2>Finn Din Frisør Hos Oss I Dag. Bestill Time Nå!</h2>
+            <button>Bestill Time</button>
+          </div>
         </div>
       </div>
       <div className="features">
