@@ -1,4 +1,7 @@
 import "./App.css";
+import imageOne from './assets/features-one.jpg'
+import imageTwo from './assets/features-two.jpg'
+import imageThree from './assets/features-three.jpg'
 
 function App() {
   return (
@@ -30,6 +33,22 @@ function App() {
         </div>
         <div>
           <h2>Kontakt Oss</h2>
+        </div>
+      </div>
+      <div className="customers-header">
+        <h3>Eksempler på våre fornøyde kunder:</h3>
+      </div>
+      <div className="customers-image-slider">
+        <div className="slider-images">
+          <img src={imageOne} alt="First img" />
+          <img src={imageTwo} alt="Second img" />
+          <img src={imageThree} alt="Third img" />
+          <img src={imageOne} alt="First img" />
+          <img src={imageTwo} alt="Second img" />
+          <img src={imageThree} alt="Third img" />
+          <img src={imageOne} alt="First img" />
+          <img src={imageTwo} alt="Second img" />
+          <img src={imageThree} alt="Third img" />
         </div>
       </div>
     </>
