@@ -51,6 +51,13 @@ function App() {
           <img src={imageThree} alt="Third img" />
         </div>
       </div>
+      <div className="presentation">
+        <h2>Hvorfor velge <br/><span>Hendrix Hair</span><br/> som din frisør?</h2>
+        <p className="italic">Hendrix Hair tar godt vare på sine frisører slik at frisørene skal kunne ta godt vare på sine kunder. Frisørenes ansiennitet er en stor fordel for å bevare forholdet mellom frisørene og kundene. Det er en av grunnene til at Hendrix Hair har klart å skaffe seg et konkurransefortrinn ovenfor sine andre aktører i frisørbransjen.</p>
+        <p>Våre frisører finner du i Oslo, Stavanger, Drammen, Gjøvik, Tønsberg og Slependen(Asker) når du trenger det.</p>
+        <p>Frisørene hos Hendrix Hair jobber mye med hårfargedesign og tilbyr et bredt spekter av fargemuligheter for håret: balayage, contouring, foilayage, baby lights, ombre, dip-dye, klassisk striping, crazy colors. </p>
+        <p>Kom innom for en uforpliktende konsultasjon.</p>
+      </div>
     </>
   );
 }
