@@ -3,7 +3,9 @@
 Welcome to our mock Barber Shop website project! This modern, user-friendly website is designed to provide customers with a seamless online experience, offering easy access to our services, booking appointments, and locating the mock shop with integrated Google Maps.
 
 ![barber-readme](https://github.com/DevrMichael/barber-website/assets/88589247/6e6b1e2e-8566-4a4e-a93a-e808bff676d4)
+
 ![bareber-price](https://github.com/DevrMichael/barber-website/assets/88589247/cd4b69d2-9503-483f-b3db-f81838948054)
+
 ![barber-location](https://github.com/DevrMichael/barber-website/assets/88589247/964f404a-5bf5-4b03-a905-5fdf658e61bf)
 
 
